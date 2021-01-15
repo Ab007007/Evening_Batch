@@ -1,0 +1,17 @@
+package com.aim.training.java.variables;
+
+public class VariablesDemo {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("--- Main Started ---");
+		String name = "Aravinda";
+		int age = 30;
+		float height = 5.8F;
+		double weight = 72;
+		String country = "India";
+		
+		System.out.println("--- Main Ended ---");
+	}
+
+}
