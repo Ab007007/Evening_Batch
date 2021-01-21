@@ -8,7 +8,7 @@ public class VariablesDemo {
 
 		System.out.println("--- Main Started ---");
 		String name = "Aravinda";
-		int age=30;
+		int age=38;
 		double height = 5.8;
 		double weight = 72;
 		String country = "India";
