@@ -2,18 +2,44 @@ package com.aim.training.java.constructor;
 
 class Employee {
 
-	String empID;
-	String officialEmailID;
-	String empBankAccount;
+	private String empID;
+	private String officialEmailID;
+	private String empBankAccount;
 	
 	public Employee(String empID, String officialEmailID,String empBankAccount) 
 	{
-		this.empID = empID;
-		this.officialEmailID = officialEmailID;
-		this.empBankAccount = empBankAccount;			
-
+		//this.empID = empID;
+		setEmpID(empID);
+		//this.officialEmailID = officialEmailID;
+		setOfficialEmailID(officialEmailID);
+//		this.empBankAccount = empBankAccount;			
+		setEmpBankAccount(empBankAccount);
 	}
 	
+	public String getEmpID() {
+		return empID;
+	}
+
+	public void setEmpID(String empID) {
+		this.empID = empID;
+	}
+
+	public String getOfficialEmailID() {
+		return officialEmailID;
+	}
+
+	public void setOfficialEmailID(String officialEmailID) {
+		this.officialEmailID = officialEmailID;
+	}
+
+	public String getEmpBankAccount() {
+		return empBankAccount;
+	}
+
+	public void setEmpBankAccount(String empBankAccount) {
+		this.empBankAccount = empBankAccount;
+	}
+
 	public Employee() {
 //		super();
 		System.out.println("---Default Constructor called ---");
