@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="com.aim.training.java.methods.MathematicalOperations"/>
 <fullyQualifiedTypeName name="com.aim.training.java.methods.AdditionDemo"/>
 <fullyQualifiedTypeName name="com.aim.training.java.constructor.Employee"/>
+<fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Animal"/>
+<fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Dog"/>
 </qualifiedTypeNameHistroy>
