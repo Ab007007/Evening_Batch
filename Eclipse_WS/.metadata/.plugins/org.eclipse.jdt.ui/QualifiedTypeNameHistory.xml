@@ -6,4 +6,9 @@
 <fullyQualifiedTypeName name="com.aim.training.java.constructor.Employee"/>
 <fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Animal"/>
 <fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Dog"/>
+<fullyQualifiedTypeName name="com.aim.training.java.as.pack1.Test1"/>
+<fullyQualifiedTypeName name="com.aim.training.java.accessmodifier.StaticDemo"/>
+<fullyQualifiedTypeName name="com.aim.training.java.accessmodifier.FinalDemo"/>
+<fullyQualifiedTypeName name="com.aim.training.java.interfaces.HumanBeing"/>
+<fullyQualifiedTypeName name="com.aim.training.java.interfaces.Employee"/>
 </qualifiedTypeNameHistroy>

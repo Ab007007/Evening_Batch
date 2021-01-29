@@ -1,10 +1,10 @@
 package com.aim.training.java.interfaces;
 
-public class Employee extends Person implements HumanBeing
+public class Employee extends Person implements HumanBeing, LivingOnEarth
 {
 	private String empID;
 	private String officialEmail;
-	private String language = "English" ;
+	private String language = "English , Kannada ,Hindi";
 	
 	public void setLanguage(String language)
 	{
@@ -32,7 +32,8 @@ public class Employee extends Person implements HumanBeing
 	}
 	
 	@Override
-	public String language() {
+	public String languagesKnown(String[] languages) 
+	{
 		// TODO Auto-generated method stub
 		return this.language;
 		
@@ -65,8 +66,14 @@ public class Employee extends Person implements HumanBeing
 		System.out.println(getLanguage());
 		System.out.println(getEmpID());
 		System.out.println(getOfficialEmail());
-		System.out.println(language());
+		System.out.println(languagesKnown(language.split(",")));
 		System.out.println(nativeFrom());
+		isOnEarth();
+		
+	}
+	@Override
+	public void isOnEarth() {
+		System.out.println("Yes..! On Earth");
 		
 	}
 	
