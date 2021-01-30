@@ -11,4 +11,9 @@
 <fullyQualifiedTypeName name="com.aim.training.java.accessmodifier.FinalDemo"/>
 <fullyQualifiedTypeName name="com.aim.training.java.interfaces.HumanBeing"/>
 <fullyQualifiedTypeName name="com.aim.training.java.interfaces.Employee"/>
+<fullyQualifiedTypeName name="com.aim.training.java.interfaces.LivingOnEarth"/>
+<fullyQualifiedTypeName name="com.aim.training.java.enums.EnumDemo.Season"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
