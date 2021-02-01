@@ -1,0 +1,12 @@
+Hello all
+this is my hand written file 
+trying to read the file
+from my java program
+Hello all
+this is my hand written file 
+trying to read the file
+from my java program
+Hello all
+this is my hand written file 
+trying to read the file
+from my java program

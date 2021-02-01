@@ -9,6 +9,8 @@ public class RunnableManager {
 		Thread t1 =  new Thread(p);
 		Thread t2 =  new Thread(p);
 		
+		t1.setName("first thread");
+		t2.setName("second thread");
 		t1.start();
 		t2.start();
 		
