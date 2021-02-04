@@ -1,0 +1,119 @@
+{
+  "id": "670b1f17-8aee-4bb4-bbf9-cc7ade8528f4",
+  "version": "2.0",
+  "name": "IDE-Demo",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "7cf23112-6e53-4b2d-934f-6c6178a1e204",
+    "name": "IBM_Openings",
+    "commands": [{
+      "id": "675cb297-07b1-47f8-a72e-549ca73e0006",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42691440-1369-4052-973f-cc0188f7aff4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "516x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7968bfe1-9321-4ecc-930f-abb177f71391",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "IBM openings"
+    }, {
+      "id": "9b97f403-2f2c-4059-8028-7ae14cb8783e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "00b85854-5032-42c6-a060-4e717fe9c6e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(1) .LC20lb > span",
+      "targets": [
+        ["css=.g:nth-child(1) .LC20lb > span", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'IBM Careers - India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d88bd95-57e2-4537-931c-c153570d8d16",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-leadspace-input",
+      "targets": [
+        ["id=search-leadspace-input", "id"],
+        ["css=#search-leadspace-input", "css:finder"],
+        ["xpath=//input[@id='search-leadspace-input']", "xpath:attributes"],
+        ["xpath=//div[@id='ibm-content-main']/header/section/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "078372f6-eb6d-42c0-807a-1440ff916536",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-leadspace-input",
+      "targets": [
+        ["id=search-leadspace-input", "id"],
+        ["css=#search-leadspace-input", "css:finder"],
+        ["xpath=//input[@id='search-leadspace-input']", "xpath:attributes"],
+        ["xpath=//div[@id='ibm-content-main']/header/section/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Tester"
+    }, {
+      "id": "ddd40198-817f-4f61-b5d1-cad24c180ae3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-leadspace-input",
+      "targets": [
+        ["id=search-leadspace-input", "id"],
+        ["css=#search-leadspace-input", "css:finder"],
+        ["xpath=//input[@id='search-leadspace-input']", "xpath:attributes"],
+        ["xpath=//div[@id='ibm-content-main']/header/section/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "12ef0c74-7be6-4347-b9ab-3c0134221b7d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3547)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "45d0e9c8-d175-4f42-8b87-e0410c8c4066",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7cf23112-6e53-4b2d-934f-6c6178a1e204"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
