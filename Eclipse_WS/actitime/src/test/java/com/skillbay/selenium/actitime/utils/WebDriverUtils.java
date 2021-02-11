@@ -72,8 +72,7 @@ public class WebDriverUtils {
 		System.out.println("--- Performing type operation ---" + text);
 		getElement(identifier, value).sendKeys(text);
 	}
-	
-	
+		
 	public static void click(String identifier, String value)
 	{
 		System.out.println("--- Performing click operation ---");
