@@ -8,7 +8,7 @@ public class FormyRegistrationPage {
 
 	public static void main(String[] args) {
 
-		WebDriver driver = ActitimeUtils.getDriver();
+		WebDriver driver = ActitimeUtils.getDriver("ff");
 		ActitimeUtils.launch("http://formy-project.herokuapp.com/form");
 		ActitimeUtils.type("id", "first-name", "Aravinda");
 		ActitimeUtils.type("id", "last-name", "HB");
