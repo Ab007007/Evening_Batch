@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.aim.training.java.methods.Addition"/>
-<fullyQualifiedTypeName name="com.aim.training.java.methods.MathematicalOperations"/>
-<fullyQualifiedTypeName name="com.aim.training.java.methods.AdditionDemo"/>
-<fullyQualifiedTypeName name="com.aim.training.java.constructor.Employee"/>
-<fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Animal"/>
 <fullyQualifiedTypeName name="com.aim.training.java.abstractclass.Dog"/>
 <fullyQualifiedTypeName name="com.aim.training.java.as.pack1.Test1"/>
 <fullyQualifiedTypeName name="com.aim.training.java.accessmodifier.StaticDemo"/>
 <fullyQualifiedTypeName name="com.aim.training.java.accessmodifier.FinalDemo"/>
-<fullyQualifiedTypeName name="com.aim.training.java.interfaces.HumanBeing"/>
 <fullyQualifiedTypeName name="com.aim.training.java.interfaces.Employee"/>
 <fullyQualifiedTypeName name="com.aim.training.java.interfaces.LivingOnEarth"/>
 <fullyQualifiedTypeName name="com.aim.training.java.enums.EnumDemo.Season"/>
@@ -40,11 +34,30 @@
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.skillbay.selenium.actitime.utils.WebDriverUtils"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="com.aim.training.java.interfaces.HumanBeing"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.FluentWait"/>
+<fullyQualifiedTypeName name="java.time.Duration"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
+<fullyQualifiedTypeName name="com.google.common.base.Function"/>
+<fullyQualifiedTypeName name="sun.nio.ch.SelChImpl"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.skillbay.selenium.actitime.utils.ActitimeUtils"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
 </qualifiedTypeNameHistroy>

@@ -26,6 +26,7 @@ public class WebDriverUtils {
 	
 	public static WebDriver getDriver(String type)
 	{
+		System.out.println("--- Creating Driver to " + type + " browser");
 		switch (type) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
@@ -108,13 +109,13 @@ public class WebDriverUtils {
 
 	public static void type(String identifier, String value, String text)
 	{
-		System.out.println("--- Performing type operation ---" + text);
+		System.out.println("### Performing type operation ###" + text);
 		getElement(identifier, value).sendKeys(text);
 	}
 		
 	public static void click(String identifier, String value)
 	{
-		System.out.println("--- Performing click operation ---");
+		System.out.println("$$$ Performing click operation $$$");
 		getElement(identifier, value).click();
 	}
 	
