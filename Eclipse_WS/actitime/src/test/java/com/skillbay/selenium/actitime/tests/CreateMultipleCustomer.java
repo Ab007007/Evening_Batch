@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import com.skillbay.selenium.actitime.utils.ActitimeUtils;
 import com.skillbay.selenium.actitime.utils.FileUtils;
 
-public class CreateCustomer
+public class CreateMultipleCustomer
 {
 	
 	public static void main(String[] args) {

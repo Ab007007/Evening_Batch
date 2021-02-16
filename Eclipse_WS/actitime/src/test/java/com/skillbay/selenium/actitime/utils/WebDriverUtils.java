@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -113,6 +115,14 @@ public class WebDriverUtils {
 		getElement(identifier, value).sendKeys(text);
 	}
 		
+	public static void waitAndclick(String identifier, String value)
+	{
+		System.out.println("$$$ Performing Wait for element to be clickable and perform click operation $$$");
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(getElement(identifier, value)));
+		ele.click();
+	}
+	
 	public static void click(String identifier, String value)
 	{
 		System.out.println("$$$ Performing click operation $$$");

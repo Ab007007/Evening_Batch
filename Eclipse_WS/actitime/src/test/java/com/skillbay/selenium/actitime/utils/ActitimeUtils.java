@@ -80,6 +80,13 @@ public class ActitimeUtils extends WebDriverUtils {
 		type("id","customerLightBox_descriptionField", cd);
 		click("id", "customerLightBox_commitBtn");
 		
+		validateSussessMessage();
+	}
+
+	
+	public static void validateSussessMessage()
+	{
+		System.out.println("-- Validating success message---");
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement toastEle = wait.until(ExpectedConditions.visibilityOf(getElement("xpath", "//div[@class='toasts']")));
 		
@@ -88,9 +95,6 @@ public class ActitimeUtils extends WebDriverUtils {
 		wait.until(ExpectedConditions.invisibilityOf(getElement("xpath", "//div[@class='toasts']")));
 		System.out.println("Toast message is disappeared!");
 	}
-
-	
-	
 	public static void logout()
 	{
 		System.out.println("--- logout of the application ---");
