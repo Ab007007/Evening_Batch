@@ -23,6 +23,7 @@ public class FileUtils {
 	static Workbook wb = null;
 	static Sheet sheet = null;
 	static Row row = null;
+	
 	public static String getGlobalData(String name)
 	{
 		System.out.println("--- Reading value from properties file ---");
@@ -39,8 +40,6 @@ public class FileUtils {
 		}
 		System.out.println("returing " + value);
 		return value;
-		
-		
 	}
 	
 	public static Sheet getSheet(String sheetname)
@@ -77,43 +76,19 @@ public class FileUtils {
 		return cell.toString();
 	}
 	
-	
-	
-	public static void main(String[] args) {
-		
-		try 
-		{
-			wb = WorkbookFactory.create(new FileInputStream(new File(dataFile)));
-			sheet = wb.getSheet("create_customer");
-			System.out.println(sheet.getLastRowNum());
-			
-			
-			for (int i = 0; i <= sheet.getLastRowNum(); i++) {
-				row = sheet.getRow(i);
-				System.out.println("|" + row.getCell(0) + " | " + row.getCell(1) + " | ");
-			}
-			
-			
-		} 
-		catch (EncryptedDocumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
-		catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} 
-		catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		finally {
-			try {
-				wb.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
+	/*
+	 * public static void main(String[] args) { try { wb =
+	 * WorkbookFactory.create(new FileInputStream(new File(dataFile))); sheet =
+	 * wb.getSheet("create_customer"); System.out.println(sheet.getLastRowNum());
+	 * for (int i = 0; i <= sheet.getLastRowNum(); i++) { row = sheet.getRow(i);
+	 * System.out.println("|" + row.getCell(0) + " | " + row.getCell(1) + " | "); }
+	 * } catch (EncryptedDocumentException e) { // TODO Auto-generated catch block
+	 * e.printStackTrace(); } catch (FileNotFoundException e) { // TODO
+	 * Auto-generated catch block e.printStackTrace(); } catch (IOException e) { //
+	 * TODO Auto-generated catch block e.printStackTrace(); } finally { try {
+	 * wb.close(); } catch (IOException e) { // TODO Auto-generated catch block
+	 * e.printStackTrace(); } } }
+	 */
+
+
 }
