@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -26,7 +27,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class CreateProject {
+public class ActitimeTests {
 	WebDriver driver = null;
 	ExtentReports reports = null;
 	ExtentTest test = null;
@@ -44,7 +45,6 @@ public class CreateProject {
 	}
 
 	@BeforeClass
-
 	public void createDriver() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -66,6 +66,7 @@ public class CreateProject {
 		driver.findElement(By.id("loginButton")).click();
 
 		Thread.sleep(3000);
+		Assert.assertEquals(driver.getTitle(), "actiTIME - Enter Time-Track");
 	}
 
 	@AfterMethod

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite" parallel="tests">
+	<parameter name="url" value="http://localhost/login.do" />
+	<parameter name="username" value="admin" />
+	<parameter name="password" value="manager" />
+	<test thread-count="5" verbose="2" name="ScreenShot test">
+		<classes>
+			<class name="com.skillbay.testng.ScreenShotDemo" />
+		</classes>
+	</test> <!-- Default test -->
+	
+	<test thread-count="5" verbose="2" name="Actitime test">
+		<classes>
+			<class name="com.skillbay.testng.ActitimeTests" />
+		</classes>
+	</test> <!-- Default test -->
+	
+</suite> <!-- Default suite -->

@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="tests">
+  <parameter name="password" value="manager"/>
+  <parameter name="url" value="http://localhost/login.do"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="5" name="ScreenShot test(failed)" parallel="tests">
     <classes>
-      <class name="com.skillbay.testng.CreateProject">
+      <class name="com.skillbay.testng.ScreenShotDemo">
         <methods>
-          <include name="createTask"/>
-          <include name="launchAndLogin"/>
-          <include name="logout"/>
-          <include name="closeDriver"/>
+          <include name="loginWithInValidCredentials"/>
+          <include name="executionstatus"/>
           <include name="createDriver"/>
+          <include name="closeDriver"/>
         </methods>
-      </class> <!-- com.skillbay.testng.CreateProject -->
+      </class> <!-- com.skillbay.testng.ScreenShotDemo -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- ScreenShot test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
