@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>D:\aimorc_training\Eclipse_WS\actitime\parallelExecution.xml</span>
+                    <span>C:\Users\Aravind\AppData\Local\Temp\testng-eclipse--1846149158\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.ScreenShotDemo" hash-for-method="loginWithInValidCredentials">loginWithInValidCredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,22 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.ActitimeTests" hash-for-method="createCustomer">createCustomer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.ActitimeTests" hash-for-method="createProject">createProject</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.ActitimeTests" hash-for-method="createTask">createTask</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.ScreenShotDemo" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.skillbay.testng.test.RedBusDemo" hash-for-method="redBusTest">redBusTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -146,91 +117,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.skillbay.testng.ScreenShotDemo</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithInValidCredentials">
-                  </a> <!-- loginWithInValidCredentials -->
-                  <span class="method-name">loginWithInValidCredentials</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [actiTIME - Enter Time-Track] but found [actiTIME - Login]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.skillbay.testng.ScreenShotDemo.loginWithInValidCredentials(ScreenShotDemo.java:64)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.skillbay.testng.ActitimeTests</span>
+              <span class="class-name">com.skillbay.testng.test.RedBusDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createCustomer">
-                  </a> <!-- createCustomer -->
-                  <span class="method-name">createCustomer</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createProject">
-                  </a> <!-- createProject -->
-                  <span class="method-name">createProject</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createTask">
-                  </a> <!-- createTask -->
-                  <span class="method-name">createTask</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.skillbay.testng.ScreenShotDemo</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithValidCredentials">
-                  </a> <!-- loginWithValidCredentials -->
-                  <span class="method-name">loginWithValidCredentials</span>
+                  <a name="redBusTest">
+                  </a> <!-- redBusTest -->
+                  <span class="method-name">redBusTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,26 +135,18 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\aimorc_training\Eclipse_WS\actitime\parallelExecution.xml</span>
+            <span class="header-content">C:\Users\Aravind\AppData\Local\Temp\testng-eclipse--1846149158\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;parameter name=&quot;password&quot; value=&quot;manager&quot;/&gt;
-  &lt;parameter name=&quot;url&quot; value=&quot;http://localhost/login.do&quot;/&gt;
-  &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;ScreenShot test&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.skillbay.testng.ScreenShotDemo&quot;/&gt;
+      &lt;class name=&quot;com.skillbay.testng.test.RedBusDemo&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ScreenShot test --&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Actitime test&quot; parallel=&quot;tests&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.skillbay.testng.ActitimeTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Actitime test --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -269,10 +158,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ScreenShot test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Actitime test (1 class)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,32 +184,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createTask')
-data.setCell(0, 2, 'com.skillbay.testng.ActitimeTests')
-data.setCell(0, 3, 18135);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createCustomer')
-data.setCell(1, 2, 'com.skillbay.testng.ActitimeTests')
-data.setCell(1, 3, 12677);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginWithInValidCredentials')
-data.setCell(2, 2, 'com.skillbay.testng.ScreenShotDemo')
-data.setCell(2, 3, 8517);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createProject')
-data.setCell(3, 2, 'com.skillbay.testng.ActitimeTests')
-data.setCell(3, 3, 7661);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginWithValidCredentials')
-data.setCell(4, 2, 'com.skillbay.testng.ScreenShotDemo')
-data.setCell(4, 3, 3758);
+data.setCell(0, 1, 'redBusTest')
+data.setCell(0, 2, 'com.skillbay.testng.test.RedBusDemo')
+data.setCell(0, 3, 39373);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -334,36 +204,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createTask</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">--- Creating a Customer ---</span>
-                <span class="reporter-method-output">-- Validating success message---</span>
-                <span class="reporter-method-output">Toast message is : 5 tasks have been created in project 'PRoject2' of customer 'SkillBay-Cust3'</span>
-                <span class="reporter-method-output">Toast message is disappeared!</span>
-                <span class="reporter-method-output">--- Creating a Task is successfull ---</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createProject</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">--- Creating a Customer ---</span>
-                <span class="reporter-method-output">-- Validating success message---<br></span>
-                <span class="reporter-method-output">Toast message is : Project 'PRoject20' has been created</span>
-                <span class="reporter-method-output">Toast message is disappeared!</span>
-                <span class="reporter-method-output">--- Creating a Project is successfull---</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createCustomer</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">--- Creating a Customer ---</span>
-                <span class="reporter-method-output">-- Validating success message---</span>
-                <span class="reporter-method-output">Toast message is : </span>
-                <span class="reporter-method-output">Toast message is disappeared!</span>
-                <span class="reporter-method-output">--- Creating a Customer is successfull ---</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -379,103 +219,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ActitimeTests</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">createReports</span>
+              <div class="chronological-class-name">com.skillbay.testng.test.RedBusDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">redBusTest</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">createDriver</span>
-                <span class="method-start">191 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ScreenShotDemo</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">createDriver</span>
-                <span class="method-start">191 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ActitimeTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchAndLogin</span>
-                <span class="method-start">4646 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ScreenShotDemo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginWithInValidCredentials</span>
-                <span class="method-start">5042 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">executionstatus([TestResult name=loginWithInValidCredentials status=FAILURE method=ScreenShotDemo.loginWithInValidCr...)</span>
-                <span class="method-start">13563 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ActitimeTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">createCustomer</span>
-                <span class="method-start">15129 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ScreenShotDemo</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">loginWithValidCredentials</span>
-                <span class="method-start">18747 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">executionstatus([TestResult name=loginWithValidCredentials status=SUCCESS method=ScreenShotDemo.loginWithValidCreden...)</span>
-                <span class="method-start">22507 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">closeDriver</span>
-                <span class="method-start">22508 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbay.testng.ActitimeTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">logout</span>
-                <span class="method-start">27807 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchAndLogin</span>
-                <span class="method-start">28124 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createProject</span>
-                <span class="method-start">31660 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logout</span>
-                <span class="method-start">39322 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchAndLogin</span>
-                <span class="method-start">39572 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">createTask</span>
-                <span class="method-start">42991 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logout</span>
-                <span class="method-start">61127 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">closeDriver</span>
-                <span class="method-start">61396 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-suite after">
-                <span class="method-name">saveReports</span>
-                <span class="method-start">61652 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+	<parameter name="url" value="http://localhost/login.do" />
+	<parameter name="username" value="admin" />
+	<parameter name="password" value="manager" />
+	<parameter name="node1" value="http://192.168.1.104:5555/wd/hub"></parameter>
+	<parameter name="node2" value="http://192.168.1.104:5556/wd/hub"></parameter>
+	<test thread-count="5" verbose="2" name="Default test">
+		<classes>
+			<class name="com.skillbay.testng.test.LoginUsingGrid" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
